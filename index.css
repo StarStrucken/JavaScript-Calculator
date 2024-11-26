@@ -1,0 +1,57 @@
+/*css for index.html*/
+
+body {
+	background-color: lightblue;
+}
+
+#topdiv {
+	box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+	/* source: https://www.webfx.com/archive/blog/images/assets/cdn.sixrevisions.com/0457-01-css-box-shadow-demo/demo.html */
+	background-color: floralwhite;
+	margin: 50px;
+	padding: 10px;
+	border-radius: 25px;
+	border: 2px solid black;
+	font-family: Spline Sans Mono;
+}
+
+#flexcontainer {
+	display: flex;
+	justify-content: center;
+}
+
+#maincontent {
+	box-shadow: -5px -5px 30px 5px orange, 5px 5px 30px 5px green;
+	/* source: https://www.webfx.com/archive/blog/images/assets/cdn.sixrevisions.com/0457-01-css-box-shadow-demo/demo.html */
+	background-color: floralwhite;
+	margin: 50px;
+	padding: 10px;
+	border-radius: 25px;
+	border: 2px solid black;
+	width: 40%;
+	font-family: Oswald;
+}
+
+#flexcontainer1 {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+h1, h2, h3, a {
+	text-align: center;
+}
+
+h1, h3 {
+	background-color: black;
+	color: floralwhite;
+}
+
+a:hover {
+	background-color: lightblue;
+}
+
+p {
+	background-color: floralwhite;
+	color: black;
+}
+

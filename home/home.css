@@ -1,0 +1,62 @@
+/*css for home.html*/
+
+body {
+	background-color: rgb(173, 216, 230);
+}
+
+#topdiv {
+	box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+	/* source: https://www.webfx.com/archive/blog/images/assets/cdn.sixrevisions.com/0457-01-css-box-shadow-demo/demo.html */
+	background-color: black;
+	margin: 50px;
+	padding: 10px;
+	border-radius: 25px;
+	border: 2px solid black;
+	font-family: Spline Sans Mono;
+}
+
+#flexcontainer {
+	display: flex;
+	justify-content: center;
+}
+
+h1, h2, h3, p {
+	text-align: center;
+}
+
+a, h1, h3 {
+	color: floralwhite;
+}
+
+a:hover {
+	background-color: red;
+}
+
+
+
+/*css for home.js*/
+
+button {
+	width: 75px;
+  padding: 15px 25px;
+  font-size: 36px;
+	font-family: Arimo;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {
+	background-color: antiquewhite;
+}
+
+button:active {
+  background-color: antiquewhite;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
